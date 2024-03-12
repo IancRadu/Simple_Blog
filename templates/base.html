@@ -1,0 +1,22 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Hiking trails, outdoor adventures, nature exploration, backpacking tips, trail maps, wilderness hikes, hiking gear, outdoor fitness, scenic routes, hiking essentials">
+    <meta name="description" content="Embark on thrilling outdoor adventures with our comprehensive guide to hiking. Explore a variety of hiking trails, discover essential backpacking tips, and access detailed trail maps for your next nature exploration. Find the best wilderness hikes and get insights into the must-have hiking gear. Whether you're a seasoned hiker or a beginner, our guide provides valuable information on outdoor fitness, scenic routes, and hiking essentials. Lace up your boots and immerse yourself in the beauty of the great outdoors. Start your hiking journey today!">
+    <link rel="stylesheet" href="{% static "app.css" %} ">
+    {% block css_files %}{% endblock css_files %}
+    <title>{% block title %}{% endblock title %}</title>
+</head>
+<body>
+<header id="main-navigation">
+    <h1><a href="{% url "starting-page" %}">Just a Blog</a></h1>
+    <nav><a href="{% url "posts-page" %}">All posts</a></nav> 
+ </header>
+    {% block content %}
+    {% endblock content %}
+</body>
+</html>
