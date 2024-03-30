@@ -7,30 +7,5 @@
     "**/requirements{/**,*}. {txt,in}": "pip-requirements"},
     "emmet.includeLanguages": {
         "django-html": "html"
-    },
-    "cSpell.ignoreWords": [
-        "deployment"
-    ],
-    "cSpell.words": [
-        "accusantium",
-        "adipisicing",
-        "amet",
-        "consectetur",
-        "dignissimos",
-        "elit",
-        "eveniet",
-        "exercitationem",
-        "maxime",
-        "nemo",
-        "odio",
-        "omnis",
-        "quibusdam",
-        "Quis",
-        "recusandae",
-        "reprehenderit",
-        "Sapiente",
-        "unde",
-        "voluptates",
-        "voluptatum"
-    ]
     }
+}
